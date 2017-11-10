@@ -2,4 +2,5 @@
 #!/bin/bash
 read -p "Source file Name : " Source
 read -p "Desitination File Name :" Destination
+# cp [-fHip][--] sourcefile targetfile
 cp -fHip $Source $Destination
